@@ -2,7 +2,7 @@
 #define EXPLOSIONS_H
 
 #include <ctype.h>
-#include <allegro.h>
+#include <alcompat.h>
 #ifdef WINDOWS
 #include "winalleg.h"
 #endif

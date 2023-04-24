@@ -1,7 +1,7 @@
 #ifndef LIGHT_H
 #define LIGHT_H
 
-#include <allegro.h>
+#include <alcompat.h>
 #ifdef WINDOWS
 #include "winalleg.h"
 #endif

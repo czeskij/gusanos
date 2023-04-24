@@ -1,6 +1,6 @@
 #ifndef WATER_H
 #define WATER_H
-#include <allegro.h>
+#include <alcompat.h>
 #ifdef WINDOWS
 #include "winalleg.h"
 #endif

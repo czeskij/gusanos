@@ -1,6 +1,6 @@
 #ifndef SPRITES_H
 #define SPRITES_H
-#include <allegro.h>
+#include <alcompat.h>
 #include <string.h>
 #ifdef WINDOWS
 #include "winalleg.h"

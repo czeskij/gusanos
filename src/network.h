@@ -4,7 +4,7 @@
 #include <zoidcom.h>
 #include <string.h>
 #include <stdlib.h>
-#include <allegro.h>
+#include <alcompat.h>
 #include "console.h"
 
 class Server : public ZCom_Control

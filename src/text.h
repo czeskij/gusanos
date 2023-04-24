@@ -1,7 +1,7 @@
 #ifndef TEXT_H
 #define TEXT_H
 
-#include <allegro.h>
+#include <alcompat.h>
 #ifdef WINDOWS
 #include "winalleg.h"
 #endif

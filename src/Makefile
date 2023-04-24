@@ -7,8 +7,8 @@ INCLUDES= engine.h sprites.h water.h console.h text.h keys.h render.h \
 	input.h sounds.h particles.h explosions.h weapons.h level.h \
 	player.h network.h lights.h
 CFLAGS= -O2 -fno-rtti #-Wall
-LIBS= `allegro-config --libs release` -lzoidcom -I/usr/local/include/zoidcom
-BIN= gusanos.exe
+LIBS= -isystem ../allegro/include/** -isystem ../zoidcom/include/
+BIN= gusanos
 OBJECTS= gusanos.o sprites.o water.o engine.o console.o text.o keys.o \
 	render.o input.o sounds.o particles.o explosions.o weapons.o \
 	level.o player.o network.o lights.o
